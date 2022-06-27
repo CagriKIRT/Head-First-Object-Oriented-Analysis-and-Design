@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Head_First_Object_Oriented_Analysis_and_Design.Chapter_Two.Test;
+using System;
 
 namespace Head_First_Object_Oriented_Analysis_and_Design
 {
@@ -6,7 +7,8 @@ namespace Head_First_Object_Oriented_Analysis_and_Design
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("----Chapter Two----");
+            DogDoorSimulator.RunSimulator();
         }
     }
 }

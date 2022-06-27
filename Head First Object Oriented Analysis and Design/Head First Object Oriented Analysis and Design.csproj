@@ -6,4 +6,10 @@
     <RootNamespace>Head_First_Object_Oriented_Analysis_and_Design</RootNamespace>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Compile Remove="Chapter Two\NewFolder\**" />
+    <EmbeddedResource Remove="Chapter Two\NewFolder\**" />
+    <None Remove="Chapter Two\NewFolder\**" />
+  </ItemGroup>
+
 </Project>
